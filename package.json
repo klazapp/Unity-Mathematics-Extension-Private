@@ -1,6 +1,6 @@
 {
   "name": "com.klazapp.mathematics",
-  "displayName": "Unity Mathematics Extension",
+  "displayName": "Unity Mathematics Extension Private",
   "version": "1.0.0",
   "unity": "2022.3",
   "description": "Enhances Unity's mathematical capabilities with extended operations such as advanced vector calculations, precise color interpolation, and custom clamping functions, aimed at simplifying complex mathematical tasks in Unity development.",
