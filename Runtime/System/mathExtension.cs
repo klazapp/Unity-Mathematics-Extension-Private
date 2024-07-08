@@ -25,5 +25,13 @@ namespace com.Klazapp.Utility
             // We multiply this epsilon by the biggest magnitude of a and b.
             return math.abs(b - a) < math.max(0.000001f * math.max(math.abs(a), math.abs(b)), math.EPSILON * 8);
         }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool AreEqual(float3 a, float3 b, float tolerance = 0.0001f)
+        {
+            return math.abs(a.x - b.x) < tolerance &&
+                   math.abs(a.y - b.y) < tolerance &&
+                   math.abs(a.z - b.z) < tolerance;
+        }
     }
 }
